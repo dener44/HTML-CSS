@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tabelas</title>
+	<style type="text/css">
+		body{
+			font-family: Arial, Helvetica, sans-serif;
+		}
+		table{
+			width: 500px;
+			border-collapse: collapse;
+		}
+		caption{
+			font-size: 1.3em;
+			font-weight: bold;
+			padding: 8px;
+		}
+		th, td{
+			border: 1px solid gray;
+			padding: 10px;
+		}
+		.destaque{
+			background-color: chartreuse;
+		}
+		col.cnome{
+			background-color: chartreuse;
+		}
+		col.csexo{
+			background-color: yellow;
+		}
+		col.cidade{
+			background-color: brown;
+		}
+	</style>
+</head>
+<body>
+    <h1>Exercício de tabelas</h1>
+	
+	<table>
+		<colgroup>
+			<col class="cnome">
+			<col class="csexo">
+			<col class="cidade">
+			<col class="cprof">
+		</colgroup>
+		<caption>Cadastro</caption>
+		<tr>
+			<th>Nome</th>
+			<th> Sexo</th>
+			<th>Idade</th>
+			<th>Profissão</th>
+		</tr>
+		<tbody>
+			<tr>
+				<td >Ana Maria Santos</td>
+				<td>F</td>
+				<td>25</td>
+				<td>Jornalista</td>
+			</tr>
+			<tr>
+				<td >Ana Maria Santos</td>
+				<td>F</td>
+				<td>25</td>
+				<td>Jornalista</td>
+			</tr>
+			<tr>
+				<td >Ana Maria Santos</td>
+				<td>F</td>
+				<td>25</td>
+				<td>Jornalista</td>
+			</tr>
+			<tr>
+				<td >Marcão</td>
+				<td>M</td>
+				<td>25</td>
+				<td>Pedreiro</td>
+			</tr>
+			<tr>
+				<td >Jão Bundão</td>
+				<td>M</td>
+				<td>20</td>
+				<td>Zé Droguinha</td>
+			</tr>
+			
+		</tbody>
+	</table>
+	
+</body>
+</html>
